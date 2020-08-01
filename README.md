@@ -47,7 +47,7 @@ Usually we encourage the community to deploy our Omnibox to earn rent. When a di
 
 ## Demo video
 
-[![Watch the video](https://github.com/Code-and-Response/Liquid-Prep/blob/master/images/IBM-interview-video-image.png)](https://youtu.be/_i510TkgiO0)
+[![Watch the video](https://hacktech.oss-us-west-1.aliyuncs.com/bgm.png)](https://youtu.be/_i510TkgiO0)
 
 ## The architecture
 
