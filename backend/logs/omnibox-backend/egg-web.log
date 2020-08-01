@@ -1,0 +1,30 @@
+2020-07-24 19:08:07,652 INFO 11280 [egg:logger] init all loggers with options: {"dir":"/Users/caocao123/Desktop/omnibox-backend/logs/omnibox-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"omnibox-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-07-24 19:08:07,685 INFO 11280 [egg-multipart] stream mode enable
+2020-07-24 19:08:08,105 INFO 11280 [egg-static] starting static serve /public/ -> /Users/caocao123/Desktop/omnibox-backend/app/public
+2020-07-24 19:08:08,107 INFO 11280 [egg-security] use methodnoallow middleware
+2020-07-24 19:08:08,108 INFO 11280 [egg-security] use noopen middleware
+2020-07-24 19:08:08,109 INFO 11280 [egg-security] use xssProtection middleware
+2020-07-24 19:08:08,109 INFO 11280 [egg-security] use xframe middleware
+2020-07-24 19:08:08,110 INFO 11280 [egg-security] use dta middleware
+2020-07-24 19:08:08,110 INFO 11280 [egg-security] compose 5 middlewares into one security middleware
+2020-07-24 19:08:08,121 INFO 11280 [egg:core] dump config after load, 4ms
+2020-07-24 19:08:08,140 INFO 11280 [egg-watcher:application] watcher start success
+2020-07-24 19:08:08,253 INFO 11280 [egg:core] dump config after ready, 6ms
+2020-07-24 19:32:20,226 WARN 11280 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-07-24 19:38:29,669 INFO 12545 [egg:logger] init all loggers with options: {"dir":"/Users/caocao123/Desktop/omnibox-backend/logs/omnibox-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"omnibox-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-07-24 19:38:29,688 INFO 12545 [egg-multipart] stream mode enable
+2020-07-24 19:38:29,996 INFO 12545 [egg-static] starting static serve /public/ -> /Users/caocao123/Desktop/omnibox-backend/app/public
+2020-07-24 19:38:29,999 INFO 12545 [egg-security] use methodnoallow middleware
+2020-07-24 19:38:30,000 INFO 12545 [egg-security] use noopen middleware
+2020-07-24 19:38:30,001 INFO 12545 [egg-security] use xssProtection middleware
+2020-07-24 19:38:30,002 INFO 12545 [egg-security] use xframe middleware
+2020-07-24 19:38:30,003 INFO 12545 [egg-security] use dta middleware
+2020-07-24 19:38:30,003 INFO 12545 [egg-security] compose 5 middlewares into one security middleware
+2020-07-24 19:38:30,014 INFO 12545 [egg:core] dump config after load, 5ms
+2020-07-24 19:38:30,030 INFO 12545 [egg-watcher:application] watcher start success
+2020-07-24 19:38:30,140 INFO 12545 [egg:core] dump config after ready, 7ms
+2020-07-24 19:48:29,579 WARN 12545 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-07-24 20:13:28,971 WARN 12545 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-07-24 20:13:28,971 WARN 12545 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-07-24 23:08:11,723 WARN 12545 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-07-24 23:08:11,726 WARN 12545 [ClusterClient:Watcher] follower closed, and try to init it again

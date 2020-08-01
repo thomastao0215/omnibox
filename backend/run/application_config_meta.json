@@ -1,0 +1,331 @@
+{
+  "assets": {
+    "publicPath": "/Users/caocao123/Desktop/omnibox-backend/config/config.default.js"
+  },
+  "bodyParser": {
+    "jsonLimit": "/Users/caocao123/Desktop/omnibox-backend/config/config.default.js",
+    "formLimit": "/Users/caocao123/Desktop/omnibox-backend/config/config.default.js",
+    "enable": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+    "strict": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+      "depth": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js"
+  },
+  "keys": "/Users/caocao123/Desktop/omnibox-backend/config/config.default.js",
+  "middleware": "/Users/caocao123/Desktop/omnibox-backend/config/config.default.js",
+  "dbConfig": {
+    "database": "/Users/caocao123/Desktop/omnibox-backend/config/config.default.js",
+    "host": "/Users/caocao123/Desktop/omnibox-backend/config/config.default.js",
+    "port": "/Users/caocao123/Desktop/omnibox-backend/config/config.default.js",
+    "username": "/Users/caocao123/Desktop/omnibox-backend/config/config.default.js",
+    "password": "/Users/caocao123/Desktop/omnibox-backend/config/config.default.js",
+    "charset": "/Users/caocao123/Desktop/omnibox-backend/config/config.default.js",
+    "collate": "/Users/caocao123/Desktop/omnibox-backend/config/config.default.js"
+  },
+  "sequelize": {
+    "dialect": "/Users/caocao123/Desktop/omnibox-backend/config/config.default.js",
+    "database": "/Users/caocao123/Desktop/omnibox-backend/config/config.default.js",
+    "host": "/Users/caocao123/Desktop/omnibox-backend/config/config.default.js",
+    "port": "/Users/caocao123/Desktop/omnibox-backend/config/config.default.js",
+    "username": "/Users/caocao123/Desktop/omnibox-backend/config/config.default.js",
+    "password": "/Users/caocao123/Desktop/omnibox-backend/config/config.default.js",
+    "charset": "/Users/caocao123/Desktop/omnibox-backend/config/config.default.js",
+    "collate": "/Users/caocao123/Desktop/omnibox-backend/config/config.default.js"
+  },
+  "jwt": {
+    "secret": "/Users/caocao123/Desktop/omnibox-backend/config/config.default.js",
+    "getToken": "/Users/caocao123/Desktop/omnibox-backend/config/config.default.js",
+    "enable": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-jwt/config/config.default.js"
+  },
+  "cors": {
+    "origin": "/Users/caocao123/Desktop/omnibox-backend/config/config.default.js",
+    "allowMethods": "/Users/caocao123/Desktop/omnibox-backend/config/config.default.js"
+  },
+  "security": {
+    "csrf": {
+      "enable": "/Users/caocao123/Desktop/omnibox-backend/config/config.default.js",
+      "type": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/caocao123/Desktop/omnibox-backend/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-view/config/config.default.js"
+  },
+  "validate": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg-validate/config/config.default.js",
+  "env": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+  "name": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+    "version": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+    "description": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+    "private": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+    "egg": {
+      "declarations": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "egg": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+      "egg-jwt": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+      "egg-router-plus": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+      "egg-sequelize": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+      "egg-validate": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+      "mysql2": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+      "stop": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+      "dev": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+      "debug": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+      "test": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+      "cov": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+      "lint": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+      "ci": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+      "autod": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+      "url": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+    "license": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+    "env": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+    "level": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+    "logging": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+      "port": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/caocao123/Desktop/omnibox-backend/node_modules/egg/config/config.default.js"
+}

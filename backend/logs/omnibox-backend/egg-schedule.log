@@ -1,0 +1,12 @@
+2020-07-24 19:08:07,681 INFO 11280 [egg-schedule]: register schedule /Users/caocao123/Desktop/omnibox-backend/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-07-24 19:08:07,681 INFO 11280 [egg-schedule]: register schedule /Users/caocao123/Desktop/omnibox-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-07-24 19:08:07,681 INFO 11280 [egg-schedule]: register schedule /Users/caocao123/Desktop/omnibox-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-07-24 19:08:08,263 INFO 11274 [Timer] /Users/caocao123/Desktop/omnibox-backend/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 33711739ms at 2020-07-25 04:30:00.002
+2020-07-24 19:08:08,263 INFO 11274 [Timer] /Users/caocao123/Desktop/omnibox-backend/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 17511737ms at 2020-07-25 00:00:00.000
+2020-07-24 19:08:08,264 INFO 11274 [Timer] /Users/caocao123/Desktop/omnibox-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 17512737ms at 2020-07-25 00:00:01.001
+2020-07-24 19:38:30,145 INFO 12541 [Timer] /Users/caocao123/Desktop/omnibox-backend/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 31889857ms at 2020-07-25 04:30:00.002
+2020-07-24 19:38:30,145 INFO 12541 [Timer] /Users/caocao123/Desktop/omnibox-backend/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 15689855ms at 2020-07-25 00:00:00.000
+2020-07-24 19:38:30,146 INFO 12541 [Timer] /Users/caocao123/Desktop/omnibox-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 15690855ms at 2020-07-25 00:00:01.001
+2020-07-24 19:38:29,688 INFO 12545 [egg-schedule]: register schedule /Users/caocao123/Desktop/omnibox-backend/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-07-24 19:38:29,688 INFO 12545 [egg-schedule]: register schedule /Users/caocao123/Desktop/omnibox-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-07-24 19:38:29,688 INFO 12545 [egg-schedule]: register schedule /Users/caocao123/Desktop/omnibox-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js

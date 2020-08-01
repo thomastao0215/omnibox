@@ -1,0 +1,55 @@
+2020-07-24 19:08:06,886 INFO 11274 [egg-sequelize](10ms) Executed (default): SELECT 1+1 AS result
+2020-07-24 19:08:06,162 INFO 11274 [egg:logger] init all loggers with options: {"dir":"/Users/caocao123/Desktop/omnibox-backend/logs/omnibox-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"omnibox-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-24 19:08:06,632 INFO 11274 [egg:core] dump config after load, 8ms
+2020-07-24 19:08:06,706 INFO 11274 [egg-watcher] Start watching: ["/Users/caocao123/Desktop/omnibox-backend/app","/Users/caocao123/Desktop/omnibox-backend/config","/Users/caocao123/Desktop/omnibox-backend/mocks","/Users/caocao123/Desktop/omnibox-backend/mocks_proxy","/Users/caocao123/Desktop/omnibox-backend/app.js"]
+2020-07-24 19:08:06,707 INFO 11274 [egg-watcher] Start watching: "/Users/caocao123/Desktop/omnibox-backend/app"
+2020-07-24 19:08:06,707 INFO 11274 [egg-watcher] Start watching: "/Users/caocao123/Desktop/omnibox-backend/config"
+2020-07-24 19:08:06,707 INFO 11274 [egg-watcher] Start watching: "/Users/caocao123/Desktop/omnibox-backend/mocks"
+2020-07-24 19:08:06,707 INFO 11274 [egg-watcher] Start watching: "/Users/caocao123/Desktop/omnibox-backend/mocks_proxy"
+2020-07-24 19:08:06,707 INFO 11274 [egg-watcher] Start watching: "/Users/caocao123/Desktop/omnibox-backend/app.js"
+2020-07-24 19:08:06,708 INFO 11274 [egg-watcher:agent] watcher start success
+2020-07-24 19:08:06,894 INFO 11274 [egg:core] dump config after ready, 6ms
+2020-07-24 19:08:08,117 INFO 11274 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/caocao123/Desktop/omnibox-backend/app/public","stat":{"dev":16777220,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":7930257,"size":64,"blocks":0,"atimeMs":1595588888105.4326,"mtimeMs":1595588888105.4326,"ctimeMs":1595588888105.4326,"birthtimeMs":1595588888105.4326,"atime":"2020-07-24T11:08:08.105Z","mtime":"2020-07-24T11:08:08.105Z","ctime":"2020-07-24T11:08:08.105Z","birthtime":"2020-07-24T11:08:08.105Z"},"remove":false,"isDirectory":true,"isFile":false}
+2020-07-24 19:32:20,228 ERROR 11274 nodejs.ClusterClientNoResponseError: client no response in 651931ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/caocao123/Desktop/omnibox-backend/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 11274
+hostname: caocao123deMacBook-Pro.local
+
+2020-07-24 19:38:28,873 INFO 12541 [egg-sequelize](7ms) Executed (default): SELECT 1+1 AS result
+2020-07-24 19:38:28,224 INFO 12541 [egg:logger] init all loggers with options: {"dir":"/Users/caocao123/Desktop/omnibox-backend/logs/omnibox-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"omnibox-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-24 19:38:28,694 INFO 12541 [egg:core] dump config after load, 3ms
+2020-07-24 19:38:28,741 INFO 12541 [egg-watcher] Start watching: ["/Users/caocao123/Desktop/omnibox-backend/app","/Users/caocao123/Desktop/omnibox-backend/config","/Users/caocao123/Desktop/omnibox-backend/mocks","/Users/caocao123/Desktop/omnibox-backend/mocks_proxy","/Users/caocao123/Desktop/omnibox-backend/app.js"]
+2020-07-24 19:38:28,741 INFO 12541 [egg-watcher] Start watching: "/Users/caocao123/Desktop/omnibox-backend/app"
+2020-07-24 19:38:28,742 INFO 12541 [egg-watcher] Start watching: "/Users/caocao123/Desktop/omnibox-backend/config"
+2020-07-24 19:38:28,742 INFO 12541 [egg-watcher] Start watching: "/Users/caocao123/Desktop/omnibox-backend/mocks"
+2020-07-24 19:38:28,742 INFO 12541 [egg-watcher] Start watching: "/Users/caocao123/Desktop/omnibox-backend/mocks_proxy"
+2020-07-24 19:38:28,742 INFO 12541 [egg-watcher] Start watching: "/Users/caocao123/Desktop/omnibox-backend/app.js"
+2020-07-24 19:38:28,742 INFO 12541 [egg-watcher:agent] watcher start success
+2020-07-24 19:38:28,887 INFO 12541 [egg:core] dump config after ready, 10ms
+2020-07-24 19:48:29,580 ERROR 12541 nodejs.ClusterClientNoResponseError: client no response in 139469ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/caocao123/Desktop/omnibox-backend/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 12541
+hostname: caocao123deMacBook-Pro.local
+
+2020-07-24 20:13:28,970 ERROR 12541 nodejs.ClusterClientNoResponseError: client no response in 1219325ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/caocao123/Desktop/omnibox-backend/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 12541
+hostname: caocao123deMacBook-Pro.local
+
+2020-07-24 23:08:11,733 ERROR 12541 nodejs.ClusterClientNoResponseError: client no response in 10462727ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/caocao123/Desktop/omnibox-backend/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 12541
+hostname: caocao123deMacBook-Pro.local
+

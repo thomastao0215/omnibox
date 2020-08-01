@@ -1,0 +1,32 @@
+2020-07-24 19:32:20,228 ERROR 11274 nodejs.ClusterClientNoResponseError: client no response in 651931ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/caocao123/Desktop/omnibox-backend/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 11274
+hostname: caocao123deMacBook-Pro.local
+
+2020-07-24 19:48:29,580 ERROR 12541 nodejs.ClusterClientNoResponseError: client no response in 139469ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/caocao123/Desktop/omnibox-backend/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 12541
+hostname: caocao123deMacBook-Pro.local
+
+2020-07-24 20:13:28,970 ERROR 12541 nodejs.ClusterClientNoResponseError: client no response in 1219325ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/caocao123/Desktop/omnibox-backend/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 12541
+hostname: caocao123deMacBook-Pro.local
+
+2020-07-24 23:08:11,729 ERROR 12541 nodejs.ClusterClientNoResponseError: client no response in 10462727ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/caocao123/Desktop/omnibox-backend/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 12541
+hostname: caocao123deMacBook-Pro.local
+
