@@ -47,11 +47,11 @@ Usually we encourage the community to deploy our Omnibox to earn rent. When a di
 
 ## Demo video
 
-[![Watch the video](https://hacktech.oss-us-west-1.aliyuncs.com/bgm.png)](https://youtu.be/_i510TkgiO0)
+[![Watch the video](https://github.com/Code-and-Response/Liquid-Prep/blob/master/images/IBM-interview-video-image.png)](https://youtu.be/_i510TkgiO0)
 
 ## The architecture
 
-![arch](/Users/caocao123/omnibox/arch.png)
+![arch](https://hacktech.oss-us-west-1.aliyuncs.com/arch.png)
 
 1. The user open App and find nearest Omnibox
 2. The user scan the QR code to request for a Powerbank( IBM Cloud Functions )
@@ -60,7 +60,7 @@ Usually we encourage the community to deploy our Omnibox to earn rent. When a di
 
 ## Project roadmap
 
-![Roadmap](roadmap.jpg![roadmap](/Users/caocao123/omnibox/roadmap.png)
+![Roadmap](roadmap.jpg![roadmap](https://hacktech.oss-us-west-1.aliyuncs.com/roadmap.png)
 
 ## Getting started
 
