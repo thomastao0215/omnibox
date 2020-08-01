@@ -47,11 +47,11 @@ Usually we encourage the community to deploy our Omnibox to earn rent. When a di
 
 ## Demo video
 
-[![Watch the video](https://github.com/Code-and-Response/Liquid-Prep/blob/master/images/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
+[![Watch the video](https://github.com/Code-and-Response/Liquid-Prep/blob/master/images/IBM-interview-video-image.png)](https://youtu.be/_i510TkgiO0)
 
 ## The architecture
 
-![Video transcription/translation app](https://developer.ibm.com/developer/tutorials/cfc-starter-kit-speech-to-text-app-example/images/cfc-covid19-remote-education-diagram-2.png)
+![arch](/Users/caocao123/omnibox/arch.png)
 
 1. The user open App and find nearest Omnibox
 2. The user scan the QR code to request for a Powerbank( IBM Cloud Functions )
@@ -60,7 +60,7 @@ Usually we encourage the community to deploy our Omnibox to earn rent. When a di
 
 ## Project roadmap
 
-![Roadmap](roadmap.jpg)
+![Roadmap](roadmap.jpg![roadmap](/Users/caocao123/omnibox/roadmap.png)
 
 ## Getting started
 
@@ -105,6 +105,7 @@ You can find a running system to test at [callforcode.mybluemix.net](http://call
 
 * [IBM Cloudant](https://cloud.ibm.com/catalog?search=cloudant#search_results) - The NoSQL database used
 * [IBM Cloud Functions](https://cloud.ibm.com/catalog?search=cloud%20functions#search_results) - The compute platform for handing logic
+* [**IBM Watson IoT Platform**]() - The IoT Platform for control IoT Devices
 * [IBM API Connect](https://cloud.ibm.com/catalog?search=api%20connect#search_results) - The web framework used
 * [Flutter](https://flutter.dev/) - The App framework used
 * [mosca](https://github.com/moscajs/mosca) - A MQTT broker as a module
@@ -116,9 +117,9 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## Authors
 
-* **JIACHEN(THOMAS) TAO** - *Initial work* - [thomastao0215](https://github.com/thomastao0215)
-* 
-* **XIANGJIE(Chauncery) ZHU** - *Initial work* - [Chauncery](https://github.com/chaunceryzhu)
+* **JIACHEN(THOMAS) TAO** - *Initial work & frontend developer* - [thomastao0215](https://github.com/thomastao0215)
+* **YEQING  XU** - *backend  developer* - [Invv](https://github.com/invv)
+* **XIANGJIE(Chauncery) ZHU** - *graphic designer - [Chauncery](https://github.com/chaunceryzhu)
 
 See also the list of [contributors](https://github.com/Code-and-Response/Project-Sample/graphs/contributors) who participated in this project.
 
